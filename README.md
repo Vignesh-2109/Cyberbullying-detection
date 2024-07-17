@@ -47,7 +47,7 @@ The dataset used for this project includes labeled instances of cyberbullying ac
 
 The dataset is balanced to ensure comprehensive analysis and effective model training.
 
-![Audio](Cyberbullying_website/frontend/public/audio.png)
+![Dataset](Cyberbullying_website/frontend/public/pie.png)
 
 ## Model Architecture
 The project explores various deep learning models:
@@ -55,6 +55,7 @@ The project explores various deep learning models:
 - **Bi-GRU**: Bidirectional GRU
 - **LSTM**: Long Short-Term Memory
 - **Bi-LSTM**: Bidirectional LSTM
+
 
 ## Preprocessing
 Data preprocessing includes:
@@ -72,6 +73,7 @@ The web application consists of the following pages:
 - **Home Page**: Overview of the project
 - **About Page**: Detailed information about the project and its implementation
 - **Predict Page**: Input text or upload audio for cyberbullying detection
+  
 
 ## Results
 The Bi-LSTM model showed the best performance:
