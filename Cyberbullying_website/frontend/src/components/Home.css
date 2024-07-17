@@ -1,0 +1,117 @@
+/* Home.css */
+.home-container {
+    background-color: #f0f4f8; /* Pastel light blue background color */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .overlay {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .welcome-title {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    color: #4b4d28; /* Pastel purple */
+  }
+  
+  .tagline {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #053c53; /* Pastel purple */
+  }
+  
+  .project-info, .details-info {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+  
+  .contact-info li {
+    margin: 0.5em 0;
+  }
+  
+  .icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+  }
+  
+  .icon {
+    font-size: 2em;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .email-icon .icon {
+    color: #ea4335; /* Gmail red */
+  }
+  
+  .github-icon .icon {
+    color: #333; /* GitHub black */
+  }
+  
+  .linkedin-icon .icon {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .phone-icon .icon {
+    color: #34a853; /* Phone green */
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  .animate-title {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .animate-tagline {
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-title {
+      font-size: 2.5em;
+    }
+  
+    .tagline {
+      font-size: 1.2em;
+    }
+  
+    .project-info, .details-info, .contact-info {
+      font-size: 1em;
+    }
+  
+    .icon-list {
+      gap: 10px;
+    }
+  }
+  

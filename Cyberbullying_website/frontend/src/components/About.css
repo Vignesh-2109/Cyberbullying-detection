@@ -1,0 +1,104 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify
+    /* align-items:center; */
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ba8888;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+  }
+  
+  .scroll-top:hover {
+    background-color: #2068b5;
+    transform: scale(1.1);
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .section-content p {
+    margin-bottom: 10px;
+  }
+  
+  .section-content ul, .section-content ol {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .section-content li {
+    margin-bottom: 5px;
+  }
+  
+  .section-content strong {
+    color: #000000; /* Blue color for strong text */
+  }
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .comparison-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .comparison-table tr:nth-child(even) {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .comparison-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .comparison-table tr:hover {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .section-content a {
+    color: #000000; /* Change this to the desired link color */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s;
+  }
+  
+  .section-content a:hover {
+    color: #003366; /* Darker color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
