@@ -47,7 +47,7 @@ The dataset used for this project includes labeled instances of cyberbullying ac
 
 The dataset is balanced to ensure comprehensive analysis and effective model training.
 
-(Cyberbullying_website/frontend/public/audio.png)
+![Audio](Cyberbullying_website/frontend/public/audio.png)
 
 ## Model Architecture
 The project explores various deep learning models:
